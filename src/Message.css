@@ -1,0 +1,19 @@
+.message{
+    padding: 6px 12px 7px;
+    margin: 3px;
+    width: fit-content;
+    border-bottom-right-radius: 1.3em !important;
+    border-top-right-radius: 1.3em !important;
+}
+
+.message__username{
+    padding: 6px 12px 7px;
+    margin: 3px;
+    width: fit-content;
+    margin-left: auto;
+    text-align: left !important;
+    background-color:rgb(0, 153, 255) !important;
+    color: white !important;
+    border-bottom-left-radius: 1.3em !important;
+    border-top-left-radius: 1.3em !important;
+}

@@ -1,38 +1,53 @@
+@font-face {
+  font-family: FacebookReader;
+  font-weight: 400;
+  font-style: normal;
+  src: url(/wp-content/themes/fb-branding/release/static/media/FacebookReader-Regular.d294342f.eot) format("embedded-opentype"),url(/wp-content/themes/fb-branding/release/static/media/FacebookReader-Regular.128d9f8e.woff2) format("woff2"),url(/wp-content/themes/fb-branding/release/static/media/FacebookReader-Regular.4261d85b.woff) format("woff"),url(/wp-content/themes/fb-branding/release/static/media/FacebookReader-Regular.717bc344.ttf) format("truetype")
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.welcome__message{
+  font-family: 'FacebookReader', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -1.5px;
+  color: rgb(0, 153, 255);
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.app__form{
+  position: fixed;
+  bottom: 10px;
+  z-index: 1;
+  width: 80%;
+  background-color: #e9e9eb;
+  padding: 20px;
+  margin: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.app__formControl{
+  display: flex !important;
+  flex-direction: row !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__iconButton{
+  flex: 0;
+}
+
+.app__input{
+  flex: 1;
+}
+
+.icon__color{
+  fill: rgb(0, 153, 255) !important;
 }
